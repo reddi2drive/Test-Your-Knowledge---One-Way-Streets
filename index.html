@@ -777,31 +777,197 @@ const QS_PER_ATTEMPT_DEFAULT = 71;
 
 const QUESTION_BANK = [
 
-{id:"template-0001",category:"Template",
-q:"This is a placeholder question?",
-choices:[
-"Option 1",
-"Option 2",
-"Option 3",
-"Option 4"
-],
-correct:0,
-explain:"This is a placeholder explanation",
-image:"",
-fp:"this is a unique fingerprint example for the question"},
+{
+  id: "oneway-0001",
+  category: "One-Way Streets – Positioning",
+  q: "When emerging left from a one-way street, where should you normally position your vehicle?",
+  choices: [
+    "Close to the left-hand side",
+    "Close to the right-hand side",
+    "In the centre of the road",
+    "Anywhere on the road"
+  ],
+  correct: 0,
+  explain: "When emerging left from a one-way street you should normally position close to the left-hand side unless road markings indicate otherwise.",
+  image: "",
+  fp: "R2D-ONEWAY-0001-20260312-A31KD"
+},
 
-{id:"template-0002",category:"Template",
-q:"This is a placeholder question where images are used for answers?",
-choices:[
-  { img:"Placeholder Image Answer 1"},
-  { img:"Placeholder Image Answer 2"},
-  { img:"Placeholder Image Answer 3"},
-  { img:"Placeholder Image Answer 4"}
-],
-correct:1,
-explain:"This is a placeholder explanation",
-image:"",
-fp:"this is a unique fingerprint example for the question"}
+{
+  id: "oneway-0002",
+  category: "One-Way Streets – Positioning",
+  q: "When emerging right from a one-way street, where should you normally position your vehicle?",
+  choices: [
+    "Close to the left-hand kerb",
+    "Close to the right-hand side",
+    "In the centre of the road",
+    "Anywhere on the road"
+  ],
+  correct: 1,
+  explain: "When emerging right from a one-way street you should normally position close to the right-hand side unless road markings indicate otherwise.",
+  image: "",
+  fp: "R2D-ONEWAY-0002-20260312-B82LX"
+},
+
+{
+  id: "oneway-0003",
+  category: "One-Way Streets – Signs",
+  q: "What does a blue rectangular sign with a white arrow pointing forward mean?",
+  choices: [
+    "Traffic must turn right",
+    "One-way traffic",
+    "No entry",
+    "Give way"
+  ],
+  correct: 1,
+  explain: "A blue rectangular sign with a white arrow indicates a one-way street in the direction shown.",
+  image: "",
+  fp: "R2D-ONEWAY-0003-20260312-C74YT"
+},
+
+{
+  id: "oneway-0004",
+  category: "One-Way Streets – Signs",
+  q: "What does a red circular sign with a white horizontal bar mean?",
+  choices: [
+    "No overtaking",
+    "No entry",
+    "No stopping",
+    "Give way"
+  ],
+  correct: 1,
+  explain: "The 'No Entry' sign means vehicles must not enter the road. It is often used at the exit end of a one-way street.",
+  image: "",
+  fp: "R2D-ONEWAY-0004-20260312-D55QH"
+},
+
+{
+  id: "oneway-0005",
+  category: "One-Way Streets – Lane Discipline",
+  q: "What is one advantage of a one-way street with several lanes?",
+  choices: [
+    "Drivers can ignore lane markings",
+    "Overtaking is easier",
+    "Traffic lights are not required",
+    "Drivers do not need to signal"
+  ],
+  correct: 1,
+  explain: "Multiple lanes on a one-way street allow traffic to overtake and position safely without conflicting with opposing traffic.",
+  image: "",
+  fp: "R2D-ONEWAY-0005-20260312-E29MS"
+},
+
+{
+  id: "oneway-0006",
+  category: "One-Way Streets – Road Markings",
+  q: "What do white arrows painted on the road show on a one-way street?",
+  choices: [
+    "Direction of traffic flow",
+    "Pedestrian crossing point",
+    "Where drivers must stop",
+    "Parking areas"
+  ],
+  correct: 0,
+  explain: "Directional arrows on the road show the direction vehicles must travel.",
+  image: "",
+  fp: "R2D-ONEWAY-0006-20260312-F94TR"
+},
+
+{
+  id: "oneway-0007",
+  category: "One-Way Streets – Observation",
+  q: "Why should you check your mirrors before changing lanes on a one-way street?",
+  choices: [
+    "Vehicles may be overtaking",
+    "Pedestrians may be crossing",
+    "The road surface may change",
+    "To reduce fuel use"
+  ],
+  correct: 0,
+  explain: "Vehicles may be overtaking or travelling faster in another lane, so mirror checks are essential before changing lanes.",
+  image: "",
+  fp: "R2D-ONEWAY-0007-20260312-G13LP"
+},
+
+{
+  id: "oneway-0008",
+  category: "One-Way Streets – Signs",
+  q: "What does this sign mean?",
+  choices: [
+    "Two-way traffic ahead",
+    "Oncoming vehicles must give way",
+    "No entry",
+    "Traffic merging from the left"
+  ],
+  correct: 0,
+  explain: "This warning sign means the road ahead changes from one-way to two-way traffic.",
+  image: "",
+  fp: "R2D-ONEWAY-0008-20260312-H42QD"
+},
+
+{
+  id: "oneway-0009",
+  category: "One-Way Streets – Hazards",
+  q: "Why might cyclists sometimes appear to travel against the traffic flow on a one-way street?",
+  choices: [
+    "They are breaking the law",
+    "Cycle lanes may allow it",
+    "Cyclists must use pavements",
+    "Cyclists cannot see road signs"
+  ],
+  correct: 1,
+  explain: "Some one-way streets include cycle lanes that allow cyclists to travel in the opposite direction.",
+  image: "",
+  fp: "R2D-ONEWAY-0009-20260312-J47NS"
+},
+
+{
+  id: "oneway-0010",
+  category: "One-Way Streets – Planning",
+  q: "Why should you choose your lane early on a multi-lane one-way street?",
+  choices: [
+    "To avoid sudden lane changes",
+    "To reduce engine noise",
+    "To avoid using mirrors",
+    "To prevent pedestrians crossing"
+  ],
+  correct: 0,
+  explain: "Planning your lane early helps you position correctly for your intended turn and avoid last-minute lane changes.",
+  image: "",
+  fp: "R2D-ONEWAY-0010-20260312-K28FD"
+},
+
+{
+  id: "oneway-0011",
+  category: "One-Way Streets – Observation",
+  q: "What is another clue that you may be on a one-way street?",
+  choices: [
+    "All parked cars face the same direction",
+    "There are street lights",
+    "There are double yellow lines",
+    "There are speed limit signs"
+  ],
+  correct: 0,
+  explain: "On a one-way street parked vehicles normally face the same direction as the flow of traffic.",
+  image: "",
+  fp: "R2D-ONEWAY-0011-20260312-L73QF"
+},
+
+{
+  id: "oneway-0012",
+  category: "Road Signs – Mandatory",
+  q: "What does this sign mean?",
+  choices: [
+    "Turn left ahead",
+    "Keep left",
+    "No left turn",
+    "Traffic merging from the left"
+  ],
+  correct: 1,
+  explain: "This blue circular sign gives a mandatory instruction. Drivers must keep to the left of the obstruction or traffic island.",
+  image: "",
+  fp: "R2D-ONEWAY-0012-20260312-M52QD"
+}
 
 
 ];
